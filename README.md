@@ -22,3 +22,15 @@ You do no need to run the backend for the entire app to work as we have a cloud 
 ### `set FLASK_APP=server.py`
 ### `flask run`
 
+Since we the frontend is not configured to make API calls to the backend through local environment. You can test the backend as an API.\
+You can use the following parameters for the API \
+\
+"/get_diaries_emotion_summary/q1IQNXF9EHcykmIflkaWbrdtIFo1" \
+"get_analysis_summary/q1IQNXF9EHcykmIflkaWbrdtIFo1" \
+"post_diary" is a POST request. Do fill the body with a json object like the following \
+{
+  title: "Title here",
+  content: "Content here",
+  uid: "q1IQNXF9EHcykmIflkaWbrdtIFo1"
+ }
+
