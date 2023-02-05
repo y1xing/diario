@@ -14,7 +14,8 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
-To run the backend
+## To run the backend
+You do no need to run the backend for the entire app to work as we have a cloud server for it already
 
 ### `cd server`
 ### `pip install -r requirements.txt`
