@@ -19,6 +19,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Initialize Firestore DB
+# Contact me for the key.json file
 cred = credentials.Certificate('key.json')
 default_app = initialize_app(cred)
 db = firestore.client()

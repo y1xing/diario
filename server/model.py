@@ -11,6 +11,10 @@ from sgnlp.models.sentic_gcn import (
 import pandas as pd
 import spacy
 import openai
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 
 def run_analysis(diary_entry):
@@ -84,7 +88,8 @@ def run_analysis(diary_entry):
     combined_list = list(zip(entity, sentiment))
 
     # Load your API key from an environment variable or secret management service
-    api_key = "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"
+    # Do contact us if you need help with this
+    api_key = os.getenv("OPENAI_API_KEY")
 
     openai.api_key = api_key
     response = openai.Completion.create(model="text-davinci-003",
