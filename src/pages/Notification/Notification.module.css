@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+    width: 100%;
+    align-items: flex-start;
+    flex: 1;
+    height: 100vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    width: 100%;
+    /* border: 1px solid #000; */
+    
+
+
+}
+
+
+.notificationContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    /* border: 1px solid #000; */
+    margin-bottom: 2rem;
+
+    
+}
+
+.notificationText {
+    margin-left: 2rem;
+}

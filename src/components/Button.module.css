@@ -1,0 +1,39 @@
+.btnContainer {
+    
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.7);
+    border-radius: 14px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 127.5%;
+    /* or 20px */
+    text-align: center;
+
+    color: #FFFFFF;
+    background: radial-gradient(108.96% 108.96% at 51.19% 7.46%, #BB40E7 0%, #6A3EB5 69.27%, #6140B8 100%),
+              linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.06)) border-box;
+    
+    border: 1px solid transparent;
+
+
+}
+
+.btnContainer:active {
+    background: radial-gradient(108.96% 108.96% at 51.19% 7.46%, #BB40E7 0%, #6A3EB5 69.27%, #6140B8 100%),
+              linear-gradient(to right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.06)) border-box;          
+    
+    transform: translateY(4px);
+              
+}
+
+.test {
+    height: 1000px;
+}

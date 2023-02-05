@@ -1,0 +1,155 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    flex: 1;
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+    
+    
+
+
+}
+
+.noDiariesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    
+    width: 100%;
+    /* border: 1px solid #000; */
+}
+
+.coverPhoto {
+    
+    width: 100%;
+    max-height: 300px;
+    display: flex; 
+    object-fit: cover;
+    flex-direction: column;
+}
+
+.therapistPic {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 5px solid #323351;
+}
+
+.name {
+    
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #CABCFC;
+}
+
+.moreAbout  {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #CABCFC;
+}
+
+.upcomingApptContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.upcomingAppt {
+    margin-bottom: 1rem;
+}
+
+.apptDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.apptHistory {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+}
+
+.dateTitle {
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+
+
+color: #CABCFC;
+}
+
+.dateAndTime {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+
+
+color: #FFFFFF;
+}
+
+.contentContainer {
+    /* border: 1px solid #CABCFC; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.textContainer {
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.viewAll {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #CABCFC;
+    width: 100%;
+    text-align: right;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+

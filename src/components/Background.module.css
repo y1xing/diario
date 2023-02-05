@@ -1,0 +1,82 @@
+.container {
+    text-align: center;
+    /* background: linear-gradient(191.65deg, #2D3344 3.44%, #3B306F 99.7%); */
+    /* padding: 1rem 2rem; */
+    /* width: 100%; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    
+    font-size: calc(10px + 2vmin);
+    color: white;
+    min-width: 300px;
+    max-width: 768px;
+    max-height: 1024px;
+    /* min-height: 100vh; */
+    margin: 0 auto;
+    overflow: auto;
+    /* border: 1px solid #000; */
+    padding-bottom: 2rem;
+    
+
+    
+
+}
+
+@media (max-width: 500px) {
+    .container {
+        
+        overflow: display;
+        
+    }
+}
+    
+
+
+.upperContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    min-width: 300px;
+    max-width: 768px;
+    height: 100px;
+    position: fixed;
+    padding-bottom: 1rem;
+    z-index: 10;
+    
+    backdrop-filter: blur(20px);
+    
+    /* padding: 2rem 0; */
+
+
+}
+
+.backOrMenuBtn {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    z-index: 20000;
+}
+
+
+.icons {
+    height: 20px;
+    
+
+}
+
+.notificationBtn {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    z-index: 20001;
+}
+
+.notificationIcon:active {
+    transform: translateY(2px);
+}

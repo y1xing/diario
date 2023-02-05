@@ -1,0 +1,99 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+    
+    
+}
+
+
+.logoBar {
+    flex-direction: row;
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
+    
+    
+    
+}
+
+.companyName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+    color: #CABCFC;
+
+}
+
+.backOrMenuBtn {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+
+
+
+.menu {
+    
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 27px;
+    top: 44px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navIcon {
+    width: 50px;
+    height: 50px;
+    filter: drop-shadow(-2px 4px 4px rgba(0,0,0,0.15));
+    
+}
+
+.navText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+    color: white;
+}
+
+.signInBtn {
+    position:absolute;
+    left:1rem;
+    width: 80%;
+    height: 44px;
+    background: #656565;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    bottom: 2rem;
+
+}
+
+.signInBtn:active {
+    background: #505050;
+    color: #fff;
+}
+

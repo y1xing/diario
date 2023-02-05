@@ -1,0 +1,74 @@
+.notebookContainer {
+    
+    border-radius: 0 10px 10px 0px;
+    position: relative;
+    flex-direction: row;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.6));
+    margin: 0.5rem 0;
+    margin-left: -0.8rem;
+    
+}
+
+.notebookContainer:active {
+    transform: translateY(4px);
+}
+
+.leftHalf {
+    position: absolute;
+    width: 17px;
+    height: 150px;
+    background-color: #462390;
+    
+    
+    
+    
+    
+}
+
+.sentiment {
+    position: absolute;
+    
+    left: 55%;
+    top: 30%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.rightHalf {
+    width: 112px;
+    height: 150px;
+    background-image: url(../assets/images/pattern.png), linear-gradient(157.82deg, #6140B8 4.99%, #B640E4 97.94%);
+    background-blend-mode: color-burn;
+    border-radius: 0 10px 10px 0px;
+}
+
+@media  (max-height: 708px) {
+    .leftHalf {
+        
+        height: 100px;
+        
+    }
+
+    .rightHalf {
+        height: 100px;
+        width: 80px;
+    }
+
+    .sentiment {
+        position: absolute;
+        
+        left: 55%;
+        top: 20%;
+        transform: translate(-50%);
+        width: 100%;
+        height: 100%;
+    
+    }
+        
+        
+}
+    

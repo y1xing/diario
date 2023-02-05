@@ -1,0 +1,1 @@
+web: gunicorn serverAPI:app --bind

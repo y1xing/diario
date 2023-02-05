@@ -1,0 +1,74 @@
+.container {
+    
+    
+    /* min-width: 43px;
+    min-height: 43px; */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(141.24deg, rgba(100, 96, 155, 0.2) 2.08%, rgba(78, 69, 123, 0.2) 95.98%);
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: calc(30% * (1vw + 1vh));
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 127.5%;
+    /* or 20px */
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.07);
+    color: #FFFFFF;
+    
+    
+    
+
+}
+
+.container:active {
+    background: linear-gradient(141.24deg, rgba(100, 96, 155, 0.4) 2.08%, rgba(78, 69, 123, 0.4) 95.98%);
+    transform: translateY(4px);
+}
+
+.containerNoClick {
+    
+    
+    /* min-width: 43px;
+    min-height: 43px; */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(141.24deg, rgba(100, 96, 155, 0.2) 2.08%, rgba(78, 69, 123, 0.2) 95.98%);
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: calc(30% * (1vw + 1vh));
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 127.5%;
+    /* or 20px */
+    text-align: center;
+    border: 3px solid rgba(255, 255, 255, 0.07);
+    color: #FFFFFF;
+    
+    
+    
+
+}
+
+

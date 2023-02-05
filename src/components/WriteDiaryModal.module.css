@@ -1,0 +1,31 @@
+.pullerContainer {
+    width: 103px;
+    height: 104px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    background: radial-gradient(108.96% 108.96% at 51.19% 7.46%, #BB40E7 0%, #6A3EB5 69.27%, #6140B8 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10000px;
+    top: 0rem;
+    
+    
+    
+    
+}
+
+.container {
+    width: 90%;
+}
+
+.titleContainer {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}

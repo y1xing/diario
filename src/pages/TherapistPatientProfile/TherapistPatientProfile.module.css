@@ -1,0 +1,258 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    flex: 1;
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+    
+    
+    
+
+
+}
+
+.upperContainer {
+    width: 100%;
+    min-width: 300px;
+    max-width: 768px;
+    height: 100px;
+    position: fixed;
+    z-index: 10;
+    padding-top: 2rem;
+    backdrop-filter: blur(20px);
+    
+    
+    
+    
+
+}
+
+
+.coverPhoto {
+    
+    width: 100%;
+    max-height: 300px;
+    display: flex; 
+    object-fit: cover;
+    flex-direction: column;
+}
+
+.therapistPic {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: -60px;
+    border: 5px solid #323351;
+}
+
+.name {
+    
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #CABCFC;
+}
+
+.moreAbout  {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #CABCFC;
+}
+
+.specialisationGrid {
+    
+    display: grid;
+    /* grid-template-columns: fit-content(8ch) fit-content(9ch) 1fr; */
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 0.5rem;
+    width: 100%;
+    
+    
+    
+
+}
+
+.upcomingApptContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.upcomingAppt {
+    margin-bottom: 1rem;
+}
+
+.apptDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.apptHistory {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+}
+
+.dateTitle {
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+
+
+color: #CABCFC;
+}
+
+.dateAndTime {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+
+
+color: #FFFFFF;
+}
+
+.contentContainer2 {
+    /* border: 1px solid #CABCFC; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 0.7rem;
+    height: 100%;
+
+}
+
+.contentContainer {
+    /* border: 1px solid #CABCFC; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
+    height: 100%;
+
+}
+
+.textContainer {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    
+}
+.textBold {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #CABCFC;
+    margin-left: 5px;
+    
+}
+
+.viewAll {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #CABCFC;
+    width: 100%;
+    text-align: right;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.overallDiaryContainer {
+    flex-direction: row;
+    display: flex;
+    
+    width: 100%;
+    position: relative;
+}
+
+.leftDiaryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid #000; */
+    
+}
+
+.rightDiaryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid #000; */
+    
+}
+
+.overallDiaryData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    
+}
+
+.subDiaryData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 384px) {
+    
+    .rightDiaryContainer {
+        display: none;
+        width: 0;
+    }
+
+    .leftDiaryContainer {
+        width: 100%;
+    }
+    
+    
+}

@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;      
+    flex: 1;
+    height: 100vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    width: 100%;
+    /* border: 1px solid #000; */
+
+
+}
+
+
+
+.filterContainer  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    /* border: 1px solid #000; */
+    margin-bottom: 2rem;
+    
+}
+
+.diariesContainer {
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 100%;
+    border: 1px solid #000;
+    margin-bottom: 2rem;
+}
+
+.diaryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    
+    /* border: 1px solid #000; */
+    margin-bottom: 2rem;
+    
+}
+
+
+.diaryTitle {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    text-align: left;
+    color: #CABCFC;
+}
+
+.diaryContent {
+    width: 100%;
+}
+
+.diaryText {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.date {
+    font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: right;
+color: #CABCFC;
+position: absolute;
+bottom: 0.5rem;
+right: 1rem;
+}
+
+.noDiariesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    
+    width: 100%;
+    /* border: 1px solid #000; */
+}
+

@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0rem;
+    align-items: flex-start;      
+    flex: 1;
+    height: 100vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+
+}
+
+.notebookContainer {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid #000; */
+    margin-bottom: 2rem;
+    /* overflow: hidden; */
+    
+    
+    
+    
+}
+
+.logo {
+    height: 10rem;
+}
+
+.title {
+    position: absolute;
+    bottom: 2rem;
+    color: rgba(202, 188, 252, 1);
+
+}
+
+.overallDiaryContainer {
+    flex-direction: row;
+    display: flex;
+    
+    width: 100%;
+    position: relative;
+}
+
+.leftDiaryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    width: 50%;
+    /* border: 1px solid #000; */
+    
+}
+
+.rightDiaryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+    /* border: 1px solid #000; */
+    
+}
+
+.overallDiaryData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    
+}
+
+.subDiaryData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+@media screen and (max-width: 384px) {
+    
+    .rightDiaryContainer {
+        display: none;
+        width: 0;
+    }
+
+    .leftDiaryContainer {
+        width: 100%;
+    }
+    
+    
+}

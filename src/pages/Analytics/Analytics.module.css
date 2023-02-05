@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    align-items: center;      
+    flex: 1;
+    height: 100vh;
+    
+    
+    width: 100%;
+    /* border: 1px solid #000; */
+
+
+}
+.filterContainer  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+    width: 100%;
+    margin-bottom: 1rem;
+    /* border: 1px solid #000; */
+    
+    
+}
+
+.notebookContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    
+    width: 100%;
+}
+
+.subtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 1rem 0rem 0.5rem 0rem;
+    text-align: left;
+    width: 100%;
+    color: #CABCFC;
+    
+ 
+}
+
+.overallEmotionContainer {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-gap: 0.5rem 1rem;
+
+    
+    width: 100%;
+    margin-bottom: 1rem;
+    /* border: 1px solid #000; */
+    
+    
+}
+
+.emotionContainer {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;    
+    width: 100%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    /* border: 1px solid #000; */
+    
+    
+}
+
+
+.chartContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    width: 100%;
+    
+    /* border: 1px solid #000; */
+    
+    
+}
+
+.diarySummaryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    width: 100%;
+    
+    margin: 1rem 0rem;
+    /* border: 1px solid #000; */
+    
+    
+}
+
+.aspectContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    justify-content: flex-start;
+    
+}
+
+.aspectContainer:active {
+    background: linear-gradient(141.24deg, rgba(211, 207, 255, 0.2) 2.08%, rgba(166, 156, 220, 0.2) 65.98%);
+    
+    border-radius: 10px;
+    
+    transform: translateY(3px);
+    
+    
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+    
+    
+    /* border: 1px solid #000; */
+    
+    
+}
